@@ -303,8 +303,8 @@ main1.sub.func=function(da.short, da.long, sk, tseq.eval, par0,  N.CV, resample,
   }
 
 
-da.sim.long <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for regular visit/da.sim.long.txt")
-da.sim.short <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for regular visit/da.sim.short.txt")
+da.sim.long <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for regular visit/da.sim.long_reg.txt")
+da.sim.short <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for regular visit/da.sim.short_reg.txt")
 
 AUC.st=main1.sub.func(da.short=da.sim.short, da.long=da.sim.long, sk=seq(0,2,0.25),
                   tseq.eval=seq(0.1,5,0.05), par0=c(0.5,0,0,0,0,0,0,0,0,0),  N.CV=3, resample=1, nsap=5, d.per=3.62)
