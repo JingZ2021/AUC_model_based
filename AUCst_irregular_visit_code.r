@@ -381,8 +381,8 @@ main1.sub.func.ireg=function(da.short, da.long, sk, tseq.eval, par0, N.CV, resam
 }
 
 
-da.sim.short <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for irregular visit/da.sim.short.txt")
-da.sim.long <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for irregular visit/da.sim.long.txt")
+da.sim.short <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for irregular visit/da.sim.short_irreg.txt")
+da.sim.long <- read.csv("C:/Drive D/Thesis2/code for paper2/Code for irregular visit/da.sim.long_irreg.txt")
 
 AUC.st=main1.sub.func.ireg(da.short=da.sim.short,
                            da.long=da.sim.long,
